@@ -113,5 +113,7 @@ int main()
                 break;
             }
         }
+        fflush(stdin);
+
     } while (main());
 }
