@@ -7,13 +7,12 @@ int main()
     do
     {
         printf("\nWelcome to the ThunderGun Calculator\n");
-
         printf("\nHow many players are playing in your game?: ");
 
+        const float fulltg = 42;
+        const float tgshot = 24;
+
         int players;
-
-        float tgshot = 24;
-
         int round;
 
         scanf("%d", &players);
@@ -39,10 +38,6 @@ int main()
             printf("\nThe round %d has %d zombies, that means that's %.3f ThunderGun Shots.\n", round, zombxround, shots);
 
             printf("\nDo you want to translate the ThunderGun shots into how many Thunderguns that is? [Y/N] (Y is 1, N is 2): ");
-
-            int fulltg;
-
-            fulltg = 42;
 
             int ans;
 
@@ -87,10 +82,6 @@ int main()
             printf("\nThe round %d has %d zombies, that means that's %.3f ThunderGun Shots.\n", round, zxcoop, shots);
 
             printf("\nDo you want to translate the ThunderGun shots into Thunderguns? [Y/N] (Y is 1, N is 2): ");
-
-            float fulltg;
-
-            fulltg = 42;
 
             int ans;
 
